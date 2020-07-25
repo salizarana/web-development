@@ -1,0 +1,22 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+#header-nav {
+    background-color: maroon;
+}
+
+.navbar-header h1 {
+    font-family: Georgia;
+    color: yellow;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #222222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    margin-left: 2px;
+}
