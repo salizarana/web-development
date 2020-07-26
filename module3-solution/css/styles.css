@@ -8,6 +8,14 @@ body {
     background-color: maroon;
 }
 
+header .navbar {
+    padding: 0;
+}
+
+.navbar-header {
+    width: inherit;
+}
+
 .navbar-header h1 {
     font-family: Georgia;
     color: yellow;
@@ -15,8 +23,36 @@ body {
     text-shadow: 1px 1px 1px #222222;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 10px;
 }
 
-.container {
-    margin-left: 2px;
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header .navbar-toggler {
+    background-color: olive;
+    float: right;
+    margin-top: 13px;
+    margin-right: 12px;
+}
+
+#nav-list {
+    text-align: center;
+    margin-bottom: 5px;
+    border-top: 2px solid black;
+}
+
+#nav-list a {
+    color: slategrey;
+}
+
+#nav-list li:hover {
+    background: azure;
+}
+
+#nav-list a:hover,
+#nav-list a:focus {
+    text-decoration: none;
 }
