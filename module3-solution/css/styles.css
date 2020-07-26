@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+#header-nav {
+    background-color: maroon;
+}
+
+header .navbar {
+    padding: 0;
+}
+
+.navbar-header {
+    width: inherit;
+}
+
+.navbar-header h1 {
+    font-family: Georgia;
+    color: yellow;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #222222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header .navbar-toggler {
+    background-color: olive;
+    float: right;
+    margin-top: 13px;
+    margin-right: 12px;
+}
+
+#nav-list {
+    margin-bottom: 5px;
+    border-top: 2px solid black;
+}
+
+#nav-list a {
+    color: slategrey;
+}
+
+#nav-list li:hover {
+    background: azure;
+}
+
+#nav-list a:hover,
+#nav-list a:focus {
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+#main-content h2 {
+    color: black;
+    margin-top: 15px;
+    font-size: 37px;
+    font-family: Geneva;
+    font-weight: bold;
+}
+
+#main-content h3 {
+    font-family: Geneva;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section {
+    background-color: burlywood;
+    margin-top: 10px;
+}
+
+#main-content p {
+    margin: 15px;
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+    .row {
+        float: left;
+    }
+}
