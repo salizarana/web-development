@@ -39,7 +39,6 @@ header .navbar {
 }
 
 #nav-list {
-    text-align: center;
     margin-bottom: 5px;
     border-top: 2px solid black;
 }
@@ -55,4 +54,39 @@ header .navbar {
 #nav-list a:hover,
 #nav-list a:focus {
     text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+#main-content h2 {
+    color: black;
+    margin-top: 15px;
+    font-size: 37px;
+    font-family: Geneva;
+    font-weight: bold;
+}
+
+#main-content h3 {
+    font-family: Geneva;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section {
+    background-color: burlywood;
+    margin-top: 10px;
+}
+
+#main-content p {
+    margin: 15px;
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+    .row {
+        float: left;
+    }
 }
